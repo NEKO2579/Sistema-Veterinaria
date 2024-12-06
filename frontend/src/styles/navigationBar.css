@@ -1,0 +1,71 @@
+.navbar-custom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link{
+  font-size: 19px!important;
+}
+
+.responsive-navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ml-auto {
+  margin-left: auto; /* Alinea el contenido a la derecha */
+}
+
+.navbar-brand-custom{
+  align-items: center;
+  display: flex
+}
+
+.nav-dropdown-item-custom{
+  font-size: 15px !important;
+}
+
+.menu-button-custom {
+  background: #343a40; /* Ajusta el color de fondo del botón */
+  border: none;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-icon {
+  width: 24px;
+  height: 24px;
+  color: #fff; /* Ajusta el color del icono según tus necesidades */
+}
+
+.menu-items-custom {
+  background: #343a40; /* Ajusta el color de fondo del menú */
+  /* Esto asegura que el menú se alinee a la izquierda */
+  left: auto !important;
+  right: 0 !important;
+  font-size: 14px !important;
+}
+
+.menu-item-inactive {
+  color: #adb5bd; /* Ajusta el color del texto  */
+}
+
+.menu-item-inactive:hover {
+  background: #495057; /* Ajusta el color de fondo al pasar el ratón */
+}
+
+.link-signin,
+.link-signup {
+  color: #ffffff; /* Ajusta el color del texto  */
+  margin-right: 15px; /* Ajusta el margen entre los enlaces */
+  font-size: 14px;
+}
+
+.link-signin:hover,
+.link-signup:hover {
+  color: #adb5bd; /* Ajusta el color del texto al pasar el ratón */
+}

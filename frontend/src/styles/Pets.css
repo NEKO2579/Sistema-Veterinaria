@@ -1,0 +1,25 @@
+.pets-container {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.row {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  max-width: 100%;
+  margin-bottom: 20px;
+}

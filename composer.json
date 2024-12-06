@@ -1,0 +1,14 @@
+{
+    "name": "gregorio/php-proyecto",
+    "description": "Proyecto de php con react veterinaria",
+    "autoload": {
+        "psr-4": {
+            "Crist\\PhpProyecto\\": "src/",
+            "Modelo\\": "modelos/",
+            "Controlador\\": "controlador/",
+            "Vista\\": "vistas/",
+            "Config\\": "config/"
+        }
+    },
+    "require": {}
+}

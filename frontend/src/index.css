@@ -1,0 +1,72 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import '../node_modules/react-image-gallery/styles/css/image-gallery.css'; 
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+  zoom: 1;
+}
+
+footer {
+  margin-top: auto; /* Esto empuja el footer hacia abajo */
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+}
+
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.fixed-card {
+  width: 100%; /* Ancho total del contenedor */
+  height: 400px; /* Altura fija; ajusta según lo necesites */
+  display: flex;
+  flex-direction: column; /* Permitir que el contenido se alinee verticalmente */
+  margin: 10px; /* Margen alrededor de cada tarjeta */
+}
+
+.panel-body {
+  flex-grow: 1; /* Permitir que el cuerpo del panel crezca para llenar el espacio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-body img {
+  width: 90%; /* Ancho de la imagen dentro del contenedor */
+  max-height: 150px; /* Altura máxima de la imagen */
+  object-fit: cover; /* Recortar la imagen si es necesario para mantener la proporción */
+}
+
+.panel-footer {
+  text-align: left; /* Alinear el texto a la izquierda, puedes ajustarlo */
+}
+
+
+
